@@ -475,7 +475,7 @@ var Token = React.createClass({
   },
 
   render: function () {
-    var className = classNames(["typeahead-token", this.props.className]);
+    var className = classNames(["typeahead-token-2", this.props.className]);
 
     return React.createElement(
       'div',
